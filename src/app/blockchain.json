@@ -1,0 +1,49 @@
+{
+    "assets": [
+      {
+        "name": "Testnet Ethers",
+        "id": "0",
+        "coingeckoId": "ethereum",
+        "ticker": "ETH",
+        "decimals": 18,
+        "logo": "/assets/eth.png",
+        "chainId": 31337
+      },
+      {
+        "name": "Tether",
+        "id": "1",
+        "coingeckoId": "tether",
+        "ticker": "USDT",
+        "decimals": 6,
+        "logo": "/assets/usdt.png",
+        "chainId": 31337,
+        "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+      },
+      {
+        "name": "Dai Stablecoin",
+        "id": "2",
+        "coingeckoId": "dai",
+        "ticker": "DAI",
+        "decimals": 6,
+        "logo": "/assets/dai.png",
+        "chainId": 31337,
+        "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+      }
+    ],
+    "chains": [
+      {
+        "name": "Ethereum (local testnet)",
+        "chainId": "31337",
+        "nativeAssetId": "0",
+        "blockchainExplorer": ""
+      }
+    ],
+    "abis": {
+      "erc20": [
+        "function balanceOf(address account) external view returns (uint256)",
+        "function transfer(address to,uint256 value) external returns (bool)",
+        "function decimals() public view returns (uint8)" 
+      ]
+    }
+  }
+  
