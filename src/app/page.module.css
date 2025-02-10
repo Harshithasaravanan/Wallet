@@ -1,0 +1,96 @@
+/*.overview {
+  background-color: rgb(250,250,250);
+  border-radius : 1.5em;
+  padding : 1.5em;
+  text-align : center;
+  margin-bottom : 1em;
+}
+
+.address {
+  font-family: "Courier New", "Courier", "monospace";
+}
+
+.balance {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.trans {
+  background-color: rgb(250,250,250);
+  border-radius : 1.5em;
+  padding : 1.5em;
+}
+
+.tokens {
+  background-color: rgb(250,250,250);
+  border-radius : 1.5em;
+  padding : 1.5em;
+  margin-bottom: 1em;
+}
+
+.token {
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(240,240,240);
+}
+
+.token:last-child {
+  padding-top: 0.75em;
+  padding-bottom: 0;
+  border-bottom: none;
+}*/
+
+.overview {
+  background-image: url(images/bitcoin-7260.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.2); /* Dark overlay */
+  background-blend-mode: multiply; /* Blends the image with the background color */
+  border-radius: 1.5em;
+  padding: 1.5em;
+  text-align: center;
+  margin-bottom: 1em;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+
+
+.address {
+  font-family: "Courier New", "Courier", "monospace";
+  color: rgb(250,250,250)
+}
+
+.balance {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Montserrat",sans-serif;
+}
+
+.transfer {
+  background-color: rgb(250,250,250);
+  border-radius : 1.5em;
+  padding : 1.5em;
+  
+}
+
+.tokens {
+  background-color: rgb(250,250,250);
+  border-radius : 1.5em;
+  padding : 1.5em;
+  margin-bottom: 1em;
+}
+
+.token {
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(240,240,240);
+}
+
+.token:last-child {
+  
+  padding-top: 0.75em;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
